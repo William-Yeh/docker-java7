@@ -44,7 +44,7 @@ Therefore, I built this Docker image on my own, also as an exercise.
 
 If you're using a Docker-friendly OS (e.g., CoreOS, Debian, Ubuntu):
 
-1. Install [Docker](https://www.docker.io/), if necessary.
+1. Install [Docker](http://www.docker.com/), if necessary.
 
 2. Download this [trusted build](https://registry.hub.docker.com/u/williamyeh/docker-java7/) from public [Docker Hub](https://registry.hub.docker.com/):
 
