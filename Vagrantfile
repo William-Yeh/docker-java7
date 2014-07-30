@@ -6,7 +6,7 @@ VAGRANTFILE_API_VERSION = "2"
 #
 # provision script; pull Docker image
 #
-docker_image = "williamyeh/docker-java7"
+docker_image = "williamyeh/java7"
 $script = <<SCRIPT
 echo Downloading Docker image: \'#{docker_image}\'...
 echo This may take minutes...
