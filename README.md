@@ -15,7 +15,7 @@ This docker image contains the following software stack:
 
 - OS: Debian jessie (built from [debian:jessie](https://registry.hub.docker.com/_/debian/)).
 
-- Java: Oracle JDK 1.7.0_72-b14
+- Java: Oracle JDK 1.7.0_76-b13
 
 
 ### Dependencies
@@ -37,6 +37,12 @@ In the beginning I used the [pulse00/java](https://github.com/dubture-dockerfile
 Therefore, I built this Docker image on my own, also as an exercise.
 
 
+
+## Alternatives
+
+- [jeanblanchard/busybox-java](https://registry.hub.docker.com/u/jeanblanchard/busybox-java/), if you prefer a minimalistic Oracle JDK 7 container on top of busybox.
+
+- [java](https://registry.hub.docker.com/_/java/) or [azul/zulu-openjdk](https://registry.hub.docker.com/u/azul/zulu-openjdk/), if you prefer OpenJDK.
 
 ## Installation
 
